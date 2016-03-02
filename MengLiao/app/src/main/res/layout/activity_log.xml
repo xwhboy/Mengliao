@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_centerHorizontal="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="#888888"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/iv_ico"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:src="@drawable/ico"
+            />
+        <TextView
+            android:text="Cute Chat"
+            android:layout_gravity="center_horizontal"
+            android:textSize="40dp"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="320dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/et_account"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/et_radius"
+            android:hint="输入你的帐号"
+            android:padding="10dp"
+            android:textColorHint="#aaaaaa"
+            />
+
+        <EditText
+            android:id="@+id/et_password"
+            android:background="@drawable/et_radius"
+            android:layout_marginTop="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="输入你的密码"
+            android:padding="10dp"
+            android:inputType="textPassword"
+            android:textColorHint="#aaaaaa"
+            />
+        <EditText
+            android:id="@+id/et_service_ip"
+            android:background="@drawable/et_radius"
+            android:layout_marginTop="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="输入服务器Ip地址"
+            android:padding="10dp"
+            android:textColorHint="#aaaaaa"
+            />
+        <TextView
+            android:id="@+id/bt_connect"
+            android:layout_below="@id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="连接"
+            android:background="@drawable/bt_log_select"
+            android:textColor="#eeeeff"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:padding="6dp"
+            android:layout_alignRight="@id/et_account"
+            android:layout_alignLeft="@id/et_account"
+            android:layout_marginTop="20dp"
+            />
+        <TextView
+            android:text="注册"
+            android:id="@+id/bt_reg"
+            android:textSize="20dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:padding="6dp"
+            android:gravity="center"
+            android:background="@null"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+    </LinearLayout>

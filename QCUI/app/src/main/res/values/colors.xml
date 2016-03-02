@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="material_blue_500">#009688</color>
+    <color name="material_blue_700">#00796B</color>
+    <color name="material_green_A200">#FD87A9</color>
+    <color name="orange1">#fc9e3e</color>
+    <color name="orange2">#db8830</color>
+    <color name="orange3">#fffcb313</color>
+    <color name="orange_soft">#fffcca7c</color>
+    <color name="orange_hsoft">#fffcb75a</color>
+    <color name="grey">#e1e1e0</color>
+    <color name="black">#000000</color>
+    <color name="lightblack">#95000000</color>
+    <color name="white">#ffffff</color>
+    <color name="twhite">#95ffffff</color>
+    <color name="ttwhite">#70ffffff</color>
+    <color name="lblue">#30000000</color>
+    <color name="blue">#00a0e9</color>
+</resources>

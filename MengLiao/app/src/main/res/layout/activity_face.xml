@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    tools:context=".FaceActivity"
+     >
+
+    <LinearLayout
+        android:id="@+id/ll_up"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:background="@drawable/bt_radius"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            />
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="10dp"
+            android:background="@drawable/bt_radius"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            />
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/ll_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#ffffff"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        >
+        <ImageButton
+            android:id="@+id/ib_call"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/bt_select"
+            android:layout_centerInParent="true"
+            />
+        </RelativeLayout>
+
+    <com.init.ui.FaceView
+        android:id = "@+id/fv_face"
+        android:layout_above="@id/ll_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/ll_up"/>
+    <SurfaceView
+        android:layout_below="@id/ll_up"
+        android:layout_width="1px"
+        android:layout_height="1px"
+        android:id="@+id/fv_camera"
+        />
+    <TextView
+        android:id="@+id/tv_duifang"
+        android:gravity="center"
+        android:text="点击下面的按钮开始图像识别"
+        android:textSize="24dp"
+        android:textColor="#ffffff"
+        android:layout_alignBottom="@id/fv_face"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

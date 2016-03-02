@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    >
+
+    <LinearLayout
+        android:layout_width="330dp"
+        android:layout_height="400dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:background="@drawable/image_test"
+        >
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="8dp"
+        android:paddingTop="6dp"
+        android:paddingBottom="3dp"
+        android:textSize="18sp"
+        android:text="点击一次开始视频聊天，长按发送语音
+        测试------------------------------测试"
+        android:textColor="@color/blue"
+        android:gravity="top"
+        android:id="@+id/show_text"
+        android:background="@drawable/biankuang_qc"/>
+
+    <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="12dp">
+
+        <Button
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:id="@+id/maike"
+            android:background="@drawable/bn_mk_se"
+            android:layout_centerInParent="true"/>
+        <Button
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:id="@+id/bn_return"
+            android:layout_marginLeft="20dp"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/bn_re_qc" />
+        <Button
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:id="@+id/bn_love"
+            android:background="@drawable/bn_love_se"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"/>
+
+</RelativeLayout>
+
+</LinearLayout>

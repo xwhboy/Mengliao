@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingTop="50dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/habitbg"
+    android:gravity="center_horizontal">
+
+    <EditText
+        android:layout_width="260dp"
+        android:layout_height="52dp"
+        android:id="@+id/add_ui"
+        android:textColor="@color/material_blue_grey_800"
+        android:hint="所在地（可不填）"
+        android:drawableLeft="@drawable/add_ui_left"
+        android:textCursorDrawable="@null"
+        android:singleLine="true"
+        android:background="@drawable/biankuang_se"
+        android:layout_marginBottom="20dp"
+        />
+    <EditText
+        android:layout_width="260dp"
+        android:layout_height="52dp"
+        android:id="@+id/pname_ui"
+        android:singleLine="true"
+        android:hint="被关注昵称（可不填）"
+        android:drawableLeft="@drawable/name_ui_left"
+        android:textCursorDrawable="@null"
+        android:background="@drawable/biankuang_se"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/material_blue_grey_800"
+        />
+    <EditText
+        android:layout_width="260dp"
+        android:layout_height="180dp"
+        android:id="@+id/habit_item_ui"
+        android:textColor="@color/material_blue_grey_800"
+        android:textCursorDrawable="@null"
+        android:layout_marginBottom="30dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="10dp"
+        android:gravity="top"
+        android:hint="兴趣爱好（可不填，每个词小于四个字,以空格结尾）"
+        android:background="@drawable/biankuang_se"
+        />
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="52dp"
+        android:id="@+id/bn_habit"
+        android:text="确定"
+
+        android:textSize="24sp"
+        android:background="@drawable/bn_w_se"
+
+        />
+</LinearLayout>

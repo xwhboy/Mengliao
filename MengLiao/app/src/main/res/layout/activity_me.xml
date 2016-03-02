@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/background_color"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:background="@color/title_background"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_height">
+        <TextView
+            android:text="我"
+            android:textColor="@color/title_text_color"
+            android:layout_centerInParent="true"
+            android:textSize="@dimen/title_text_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <View
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#333333"
+        />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/ll_me_mainview"
+        android:background="#999999"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/ic_me"
+            android:layout_width="80dp"
+            android:layout_height="80dp" />
+        <TextView
+            android:text="me"
+            android:id="@+id/tv_me"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:textSize="30dp"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#333333"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="20dp"
+        android:background="#333333"
+        />
+    <ImageView
+        android:id="@+id/im_sex"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/boy"
+        android:background="#999999"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#333333"
+        />
+
+</LinearLayout>

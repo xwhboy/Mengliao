@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">QCUI</string>
+
+    <string name="title_section1">地图定位</string>
+    <string name="title_section2">兴趣标签</string>
+    <string name="title_section3">特别关注</string>
+    <string name="title_section4">一键分享</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">Settings</string>
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:background="@drawable/item_att_se"
+        >
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="69dp"
+            android:background="@drawable/yuan"
+            android:gravity="center"
+            android:id="@+id/name_image"
+            android:text="明"
+            android:textSize="25sp"
+            android:textColor="@color/material_blue_grey_800"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="名字"
+                android:id="@+id/name_att"
+                android:textSize="20sp"
+                android:textColor="@color/material_blue_grey_800"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="个性留言"
+                android:id="@+id/message_att"
+                android:textSize="14sp"
+                android:layout_marginTop="6dp"
+                android:singleLine="true"
+                android:textColor="@color/material_blue_grey_800"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <ImageView
+        android:layout_width="12dp"
+        android:layout_height="25dp"
+        android:layout_marginRight="18dp"
+        android:background="@drawable/arrow"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MengLiao</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!--服务器-->
+    <string name="xmpp_port">5222</string>
+    <string name="xmpp_host">192.168.1.56</string>
+    <string name="xmpp_service_name">zoson</string>
+</resources>

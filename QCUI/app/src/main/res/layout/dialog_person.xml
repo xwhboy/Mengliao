@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="400dp"
+    android:background="@drawable/dialogbg"
+    android:layout_gravity="center">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        >
+        <ImageView
+            android:layout_width="123dp"
+            android:layout_height="123dp"
+            android:background="@drawable/headimage_01"
+            android:id="@+id/head_image"
+            android:layout_marginTop="6dp"
+            android:layout_marginLeft="10dp"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="123dp"
+            android:layout_toRightOf="@id/head_image"
+            android:paddingLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical"
+            android:paddingTop="26dp"
+            android:id="@+id/ll2">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Concel"
+                android:id="@+id/head_name"
+                android:textColor="@color/material_blue_grey_800"
+                android:textSize="30sp"
+                android:layout_marginBottom="3dp"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="北京市"
+                android:id="@+id/head_address"
+                android:textColor="@color/material_blue_grey_800"
+                android:textSize="20sp"
+                android:layout_gravity="center_horizontal"
+
+                />
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="个性留言（一句话）"
+            android:id="@+id/head_message"
+            android:textColor="@color/material_blue_grey_800"
+            android:textSize="19sp"
+            android:layout_below="@+id/ll2"
+            android:paddingBottom="3dp"
+            android:layout_marginLeft="25dp"
+            />
+
+    </RelativeLayout>
+    <GridView
+        android:id="@+id/grigview_ui"
+        android:layout_width="wrap_content"
+        android:layout_height="124dp"
+        android:layout_above="@+id/ll3"
+        android:numColumns="3"
+        android:gravity="center"
+        android:stretchMode="columnWidth"
+        android:paddingRight="15dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:horizontalSpacing="8dp"
+        android:verticalSpacing="5dp"
+        />
+    <LinearLayout
+        android:id="@+id/ll3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="15dp"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:text="返回"
+            android:id="@+id/bn_cancel"
+            android:background="@drawable/bn_dialog_se"
+            android:textColor="@color/material_blue_grey_800"
+            />
+        <Button
+            android:layout_marginLeft="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:text="聊·Go"
+            android:id="@+id/bn_ok"
+            android:background="@drawable/bn_dialog_se"
+            android:textColor="@color/material_blue_grey_800"
+
+            />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
